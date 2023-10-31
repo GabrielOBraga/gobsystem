@@ -1,12 +1,12 @@
 export const siteConfig = {
-  name: "shadcn/ui",
-  url: "https://ui.shadcn.com",
-  ogImage: "https://ui.shadcn.com/og.jpg",
+  name: "GOB SYSTEM",
+  url: "https://gobsystem-www.vercel.app",
+  ogImage: "",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Site Comercial GOB System, Componentes projetados e construídos com Radix UI e Tailwind CSS.",
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn-ui/ui",
+    twitter: "https://www.instagram.com/gob.system/",
+    github: "https://github.com/GabrielOBraga",
   },
 }
 

@@ -19,38 +19,23 @@ export default function IndexPage() {
   return (
     <div className="container relative">
       <PageHeader className="pb-8">
-        <Link
-          href="/docs/changelog"
-          className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm font-medium"
-        >
-          🎉 <Separator className="mx-2 h-4" orientation="vertical" />{" "}
-          <span className="sm:hidden">Style, a new CLI and more.</span>
-          <span className="hidden sm:inline">
-            Introducing Style, a new CLI and more.
-          </span>
-          <ArrowRightIcon className="ml-1 h-4 w-4" />
-        </Link>
-        <PageHeaderHeading>Build your component library.</PageHeaderHeading>
+        
+        <PageHeaderHeading>SOFTWARES PERSONALIZADOS</PageHeaderHeading>
         <PageHeaderDescription>
-          Beautifully designed components that you can copy and paste into your
-          apps. Accessible. Customizable. Open Source.
+        Sou apaixonado por construir sites de alta qualidade que realçam e focam na personalidade do cliente, deixando o sistema perfeitamente alinhado com a identidade da empresa. Minha expertise reside em criar experiências limpas e amigáveis, garantindo que cada detalhe reflita a essência da marca.
         </PageHeaderDescription>
         <div className="flex w-full items-center space-x-4 pb-8 pt-4 md:pb-10">
-          <Link href="/docs" className={cn(buttonVariants())}>
-            Get Started
+          <Link href="/sobre" className={cn(buttonVariants())}>
+            SAIBA MAIS
           </Link>
-          <Link
-            target="_blank"
-            rel="noreferrer"
-            href={siteConfig.links.github}
-            className={cn(buttonVariants({ variant: "outline" }))}
-          >
-            <Icons.gitHub className="mr-2 h-4 w-4" />
-            GitHub
+          <Link href="/contato" className={cn(buttonVariants())}>
+            ENTRAR EM CONTATO
+          </Link><Link href="#" className={cn(buttonVariants())}>
+            ...
           </Link>
         </div>
       </PageHeader>
-      <ExamplesNav className="[&>a:first-child]:text-primary" />
+      {/* <ExamplesNav className="[&>a:first-child]:text-primary" /> */}
       <section className="space-y-8 overflow-hidden rounded-lg border-2 border-primary dark:border-muted md:hidden">
         <Image
           src="/examples/dashboard-light.png"
